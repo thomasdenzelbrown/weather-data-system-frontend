@@ -4,5 +4,6 @@ export interface StormReport {
   location: string;
   severity: string;
   date: string;
+  state: string;
   comments?: string;
 }
